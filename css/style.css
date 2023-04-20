@@ -1100,6 +1100,22 @@ ol {
     margin-top: 80px;
     text-indent: 0;
   }
+  .accordion {
+    flex-direction: row;
+  }
+
+  .accordion-item {
+    margin-right: 20px;
+    margin-bottom: 0;
+    flex-basis: 50%;
+  }
+  .lista ul{
+    display: none;
+  }
+
+  .answer {
+    padding: 20px;
+  }
   .header__nav__menu ul li {
     margin-right: 25px;
   }
@@ -1127,6 +1143,10 @@ ol {
   .hero__slider.owl-carousel .owl-dots {
     max-width: 930px !important;
   }
+  .containere h1 {
+   font-size: 26px;
+  }
+  
 }
 /* Tablet Device = 768px */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1137,6 +1157,21 @@ ol {
     font-size: 22px;
     margin-top: 80px;
     text-indent: 0;
+  }
+  .accordion {
+    flex-direction: row;
+  }
+  .lista ul{
+    display: none;
+  }
+  .accordion-item {
+    margin-right: 20px;
+    margin-bottom: 0;
+    flex-basis: 50%;
+  }
+
+  .answer {
+    padding: 20px;
   }
   .services__title {
     margin-bottom: 50px;
@@ -1256,13 +1291,31 @@ ol {
   .header__nav__option {
     display: none;
   }
+  .containere h1 {
+    font-size: 26px;
+   }
+   
 }
 /* Wide Mobile = 480px */
 @media only screen and (max-width: 767px) {
   .services__title {
     margin-bottom: 50px;
   }
+  .accordion {
+    flex-direction: row;
+  }
+  .lista ul{
+    display: none;
+  }
+  .accordion-item {
+    margin-right: 20px;
+    margin-bottom: 0;
+    flex-basis: 50%;
+  }
 
+  .answer {
+    padding: 20px;
+  }
   
   .text-container p {
     font-size: 22px;
@@ -1443,6 +1496,10 @@ ol {
   .blog__details__quote {
     padding: 30px 45px 35px 35px;
   }
+  .containere h1 {
+    font-size: 26px;
+   }
+   
 }
 /* Small Device = 320px */
 @media only screen and (max-width: 479px) {
@@ -1454,6 +1511,21 @@ ol {
     font-size: 22px;
     margin-top: 80px;
     text-indent: 0;
+  }
+  .accordion {
+    flex-direction: row;
+  }
+  .lista ul{
+    display: none;
+  }
+  .accordion-item {
+    margin-right: 20px;
+    margin-bottom: 0;
+    flex-basis: 50%;
+  }
+
+  .answer {
+    padding: 20px;
   }
   .grid-sizer {
     width: 100%;
@@ -1487,4 +1559,8 @@ ol {
   .blog__details__quote {
     padding: 30px 40px 35px 35px;
   }
+  .containere h1 {
+    font-size: 26px;
+   }
+   
 }
