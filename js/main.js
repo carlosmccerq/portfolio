@@ -139,7 +139,6 @@ window.addEventListener('scroll', () => {
     siteSection.classList.add('show');
   }
 });
-
    /*------------------
         accordion
     --------------------*/

@@ -6,7 +6,6 @@ body {
   -webkit-font-smoothing: antialiased;
   scroll-behavior: smooth;
   background-color: #F4F1E8;
-  overflow-x: hidden;
 
 }
 
@@ -872,7 +871,6 @@ ol {
   Work
 -----------------------*/
 .work {
-  overflow: hidden;
   background: #F4F1E8;
 }
 
@@ -887,7 +885,6 @@ ol {
   margin-bottom: 10px;
   float: left;
   position: relative;
-  overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -963,7 +960,6 @@ ol {
 }
 .site-section {
   opacity: 0;
-  visibility: hidden;
   transition: opacity 0.5s, visibility 0s linear 0.5s;
 }
 
