@@ -9,7 +9,9 @@
     /*------------------
         Preloader
     --------------------*/
- 
+    $(window).on('load', function () {
+        $(".loader").fadeOut();
+        $("#preloder").delay(200).fadeOut("slow");
 
         /*------------------
             Portfolio filter
@@ -117,29 +119,6 @@ function toggleAccordion() {
 items.forEach((item) => item.addEventListener('click', toggleAccordion));
 
 
-// Get the site-section div
-const siteSection = document.querySelector('.site-section');
-
-// Get the section with class work
-const workSection = document.querySelector('.work');
-
-// Calculate the offsetTop of the work section
-const workSectionOffsetTop = workSection.offsetTop;
-
-// Check if the navigator object exists and the user is not on a mobile device
-if (typeof navigator !== 'undefined' && !/Mobi|Android/i.test(navigator.userAgent)) {
-  // Add a scroll event listener to the window
-  window.addEventListener('scroll', () => {
-    // Get the current scroll position
-    const scrollPosition = window.scrollY;
-
-    // Check if the scroll position is greater than or equal to the offsetTop of the work section
-    if (scrollPosition >= workSectionOffsetTop) {
-      // Add the 'show' class to the site-section div
-      siteSection.classList.add('show');
-    }
-  });
-}
 
    /*------------------
         accordion
