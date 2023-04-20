@@ -1095,7 +1095,11 @@ ol {
   .header__nav__menu {
     margin-right: 25px;
   }
-
+  .text-container p {
+    font-size: 22px;
+    margin-top: 80px;
+    text-indent: 0;
+  }
   .header__nav__menu ul li {
     margin-right: 25px;
   }
@@ -1129,7 +1133,11 @@ ol {
   .hero__slider.owl-carousel .owl-dots {
     max-width: 690px !important;
   }
-
+  .text-container p {
+    font-size: 22px;
+    margin-top: 80px;
+    text-indent: 0;
+  }
   .services__title {
     margin-bottom: 50px;
   }
@@ -1254,12 +1262,10 @@ ol {
   .services__title {
     margin-bottom: 50px;
   }
-  .text-container {
-    height: auto;
-  }
+
   
   .text-container p {
-    font-size: 32px;
+    font-size: 22px;
     margin-top: 80px;
     text-indent: 0;
   }
@@ -1444,7 +1450,11 @@ ol {
     font-size: 30px;
     line-height: 40px;
   }
-
+  .text-container p {
+    font-size: 22px;
+    margin-top: 80px;
+    text-indent: 0;
+  }
   .grid-sizer {
     width: 100%;
   }
