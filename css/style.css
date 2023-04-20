@@ -1285,6 +1285,22 @@ ol {
   .text-container {
     height: auto;
   }
+  .hero__item {
+    height: 300px; /* adjust the height of the hero item for small screens */
+  }
+  
+  .hero__slider.owl-carousel {
+    margin-top: 20px; /* adjust the top margin of the slider for small screens */
+  }
+  
+  .container {
+    padding-left: 10px; /* adjust the left padding of the container for small screens */
+    padding-right: 10px; /* adjust the right padding of the container for small screens */
+  }
+  
+  .col-lg-6 {
+    width: 100%; /* set the width of the column to 100% for small screens */
+  }
   
   .text-container p {
     font-size: 32px;
