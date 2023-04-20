@@ -119,7 +119,26 @@ function toggleAccordion() {
 items.forEach((item) => item.addEventListener('click', toggleAccordion));
 
 
+// Get the site-section div
+const siteSection = document.querySelector('.site-section');
 
+// Get the section with class work
+const workSection = document.querySelector('.work');
+
+// Calculate the offsetTop of the work section
+const workSectionOffsetTop = workSection.offsetTop;
+
+// Add a scroll event listener to the window
+window.addEventListener('scroll', () => {
+  // Get the current scroll position
+  const scrollPosition = window.scrollY;
+
+  // Check if the scroll position is greater than or equal to the offsetTop of the work section
+  if (scrollPosition >= workSectionOffsetTop) {
+    // Add the 'show' class to the site-section div
+    siteSection.classList.add('show');
+  }
+});
    /*------------------
         accordion
     --------------------*/
