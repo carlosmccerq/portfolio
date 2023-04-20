@@ -1242,47 +1242,8 @@ ol {
     padding: 6px 15px;
   }
 
-  .slicknav_menu {
-    background: transparent;
-    padding: 0;
-    display: block;
-  }
 
-  .slicknav_nav ul {
-    margin: 0;
-    padding: 10px 30px;
-  }
 
-  .slicknav_nav .slicknav_row,
-.slicknav_nav a {
-    padding: 7px 0;
-    margin: 0;
-    color: #ffffff;
-    font-weight: 600;
-  }
-
-  .slicknav_nav .slicknav_row:hover {
-    border-radius: 0;
-    background: transparent;
-    color: #111111;
-  }
-
-  .slicknav_nav a:hover {
-    border-radius: 0;
-    background: transparent;
-    color: #111111;
-  }
-
-  .slicknav_nav {
-    background: #222222;
-  }
-
-  .slicknav_btn {
-    position: absolute;
-    right: 10px;
-    top: 26px;
-    background: #00bfe7;
-  }
 
   .header .container {
     position: relative;
@@ -1388,47 +1349,9 @@ ol {
     padding: 0 15px;
   }
 
-  .slicknav_menu {
-    background: transparent;
-    padding: 0;
-    display: block;
-  }
 
-  .slicknav_nav ul {
-    margin: 0;
-    padding: 10px 30px;
-  }
 
-  .slicknav_nav .slicknav_row,
-.slicknav_nav a {
-    padding: 7px 0;
-    margin: 0;
-    color: #ffffff;
-    font-weight: 600;
-  }
 
-  .slicknav_nav .slicknav_row:hover {
-    border-radius: 0;
-    background: transparent;
-    color: #111111;
-  }
-
-  .slicknav_nav a:hover {
-    border-radius: 0;
-    background: transparent;
-    color: #111111;
-  }
-
-  .slicknav_nav {
-    background: #222222;
-  }
-
-  .slicknav_btn {
-    position: absolute;
-    right: 10px;
-    top: 26px;
-    background: #00bfe7;
-  }
 
   .header .container {
     position: relative;
