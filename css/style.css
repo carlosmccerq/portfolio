@@ -872,6 +872,7 @@ ol {
   Work
 -----------------------*/
 .work {
+  overflow: hidden;
   background: #F4F1E8;
 }
 
@@ -886,6 +887,7 @@ ol {
   margin-bottom: 10px;
   float: left;
   position: relative;
+  overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -959,16 +961,7 @@ ol {
 .work__item__hover ul li:last-child:after {
   display: none;
 }
-.site-section {
-  opacity: 0;
-  transition: opacity 0.5s, visibility 0s linear 0.5s;
-}
 
-.site-section.show {
-  opacity: 1;
-  visibility: visible;
-  transition-delay: 0s;
-}
 
 /*---------------------
   cronologia
