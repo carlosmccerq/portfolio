@@ -56,39 +56,26 @@ p {
 
 /* coluna abreu imagem */
 
-#cover {
+.textodiv {
   background-color: #F4F1E8;
-  width: 800px;
-  height: 800px;
-  margin: 0 auto;
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-#cover  img {
-  float: left;
-  width: 45%;
-  margin: 1.66%;
+.textodiv p{
+padding-top: 160px;
+padding-left: 220px;
+padding-right: 200px;
 }
+
+
+
 
 
 /* texto em 2 colunas */
-.column{
-  margin-top: 120px;
-  background-color: #F4F1E8;
-  float: left;
-  width: 50%;
-  padding: 10px;
 
-}
-.banner {
-  background-color: #00bfe7;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.banner img {
-  max-width: 100%;
-  max-height: 100%;
-}
 
 
 /* Clear floats after the columns */
@@ -115,7 +102,54 @@ p {
   max-width: 33%; /* This will ensure that each image is 33% of the container's width */
   height: auto; /* This will maintain the aspect ratio of the images */
 }
+/* 4 image abreu */
 
+.grid {
+  display: flex;
+  width: 100%;
+  padding: 4% 2%;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+.box {
+  flex: 1;
+  overflow: hidden;
+  transition: .5s;
+  margin: 0 2%;
+}
+
+.box > img {
+  width: 200%;
+  height: calc(100% - 10vh);
+  object-fit: cover; 
+  transition: .5s;
+}
+
+/* 4 image logo full */
+#cover {
+  background-color: #F4F1E8;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#cover img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin-top: 120px;
+  margin-bottom: 100px;
+}
+
+
+
+.box:hover { flex: 1 1 50%; }
+.box:hover > img {
+  width: 100%;
+  height: 100%;
+}
+ 
 
 img {
   max-width: 100%;
@@ -712,6 +746,7 @@ gallery-----------------------*/
   .header__nav__menu {
     margin-right: 25px;
   }
+
   .image-grid {
     flex-direction: column;
     flex-wrap: no-wrap;
