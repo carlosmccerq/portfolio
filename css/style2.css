@@ -57,12 +57,13 @@ p {
 /* coluna abreu imagem */
 
 #cover {
+  background-color: #F4F1E8;
   width: 800px;
   height: 800px;
   margin: 0 auto;
 }
 
-#cover > img {
+#cover  img {
   float: left;
   width: 45%;
   margin: 1.66%;
@@ -79,7 +80,7 @@ p {
 
 }
 .banner {
-  background-color: #F4F1E8;
+  background-color: #00bfe7;
   display: flex;
   justify-content: center;
   align-items: center;
