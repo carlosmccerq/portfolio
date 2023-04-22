@@ -251,7 +251,10 @@ ol {
   text-decoration: none;
   background: #000;
 }
+.sticky-content{
 
+  margin-top: 200px;
+}
 /*---------------------
 gallery-----------------------*/
 
@@ -265,8 +268,16 @@ gallery-----------------------*/
 #image-gallery img:hover {
   transform: scale(1.10);
 }
-.img-fluid{
-margin-bottom: 50px;
+
+.banner {
+  overflow: hidden; /* clear float */
+}
+
+.banner {
+  background-color: #F4F1E8; /* set the text color */
+  margin-top: 70px;
+  padding: 20px; /* add some padding */
+  text-align: center; /* center the text */
 }
 /*---------------------
   Helper CSS
