@@ -1104,7 +1104,9 @@ ol {
   .accordion {
     flex-direction: row;
   }
-
+  .textodiv {
+    font-size: 18px;
+  }
   .accordion-item {
     margin-right: 20px;
     margin-bottom: 0;
@@ -1159,6 +1161,9 @@ ol {
     margin-top: 80px;
     text-indent: 0;
     text-align: left;
+  }
+  .textodiv {
+    font-size: 18px;
   }
   .accordion {
     flex-direction: row;
@@ -1275,7 +1280,9 @@ ol {
     margin-bottom: 0;
     flex-basis: 50%;
   }
-
+  .textodiv {
+    font-size: 18px;
+  }
   .answer {
     padding: 20px;
   }
@@ -1432,6 +1439,9 @@ ol {
   .hero__text h2 {
     font-size: 30px;
     line-height: 40px;
+  }
+  .textodiv {
+    font-size: 18px;
   }
   .text-container p {
     font-size: 18px;

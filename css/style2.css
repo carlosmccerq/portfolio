@@ -65,11 +65,12 @@ p {
 }
 
 .textodiv p{
-padding-top: 160px;
-padding-left: 220px;
-padding-right: 200px;
+  margin-top: 100px;
+  margin-left: 180px;
+  margin-right: 180px;
+  padding: 20px;
+  max-width: 100%;
 }
-
 
 
 
@@ -797,7 +798,9 @@ gallery-----------------------*/
   .header__nav__menu {
     margin-right: 25px;
   }
-
+  .image-row img {
+    flex-basis: calc(20% - 20px);
+  }
   .image-grid {
     flex-direction: column;
     flex-wrap: no-wrap;
@@ -831,13 +834,34 @@ gallery-----------------------*/
   .hero__slider.owl-carousel .owl-dots {
     max-width: 930px !important;
   }
+  .textodiv p{
+    margin-top: 100px;
+    margin-left: 18px;
+    margin-right: 18px;
+    padding: 20px;
+    max-width: 100%;
+  }
 }
 /* Tablet Device = 768px */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .hero__slider.owl-carousel .owl-dots {
     max-width: 690px !important;
   }
-
+  .image-row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .textodiv p{
+    margin-top: 100px;
+    margin-left: 18px;
+    margin-right: 18px;
+    padding: 20px;
+    max-width: 100%;
+  }
+  .image-row img {
+    margin: 5px;
+    max-width: 80%;
+  }
   .services__title {
     margin-bottom: 50px;
   }
@@ -979,7 +1003,21 @@ gallery-----------------------*/
     margin-bottom: 30px;
     width: auto;
   }
-
+  .image-row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .textodiv p{
+    margin-top: 100px;
+    margin-left: 18px;
+    margin-right: 18px;
+    padding: 20px;
+    max-width: 100%;
+  }
+  .image-row img {
+    margin: 5px;
+    max-width: 80%;
+  }
   .counter__item::before {
     display: none;
   }
@@ -1161,7 +1199,20 @@ gallery-----------------------*/
   .work__item.wide__item {
     width: 100%;
   }
-
+  .image-row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .textodiv p{
+    margin-top: 100px;
+    margin-left: 18px;
+    margin-right: 18px;
+    padding: 20px;
+    max-width: 100%;
+  }
+  .image-row img {
+    margin: 5px;
+  }
   .work__item {
     width: 100%;
     margin-right: 0;
