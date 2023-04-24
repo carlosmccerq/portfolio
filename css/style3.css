@@ -255,6 +255,23 @@ ol {
 
   margin-top: 200px;
 }
+
+.textodiv {
+  background-color: #F4F1E8;
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.textodiv p{
+  margin-top: 100px;
+  margin-left: 180px;
+  margin-right: 180px;
+  margin-bottom: 100px;
+  padding: 20px;
+  max-width: 100%;
+}
 /*---------------------
 gallery-----------------------*/
 
