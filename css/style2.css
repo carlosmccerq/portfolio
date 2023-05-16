@@ -77,7 +77,13 @@ p {
 
 /* texto em 2 colunas */
 
-
+.imagg{
+  text-align: center;
+}
+.imagg img{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 
 /* Clear floats after the columns */
 .textodiv{
