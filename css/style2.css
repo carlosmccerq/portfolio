@@ -824,8 +824,8 @@ gallery-----------------------*/
   .box img {
     width: 100%;
     height: auto;
-    max-width: 400px; /* Adjust the desired maximum image width */
-    max-height: 400px; /* Adjust the desired maximum image height */
+    max-width: 100%; /* Adjust the desired maximum image width */
+    max-height: 100%; /* Adjust the desired maximum image height */
   }
   
   .image-grid div { width: 100%; }
@@ -900,8 +900,8 @@ gallery-----------------------*/
   .box img {
     width: 100%;
     height: auto;
-    max-width: 400px; /* Adjust the desired maximum image width */
-    max-height: 400px; /* Adjust the desired maximum image height */
+    max-width: 100%; /* Adjust the desired maximum image width */
+    max-height: 100%; /* Adjust the desired maximum image height */
   }
   .textodiv p{
     margin-top: 100px;
@@ -1075,8 +1075,8 @@ gallery-----------------------*/
   .box img {
     width: 100%;
     height: auto;
-    max-width: 400px; /* Adjust the desired maximum image width */
-    max-height: 400px; /* Adjust the desired maximum image height */
+    max-width: 100%; /* Adjust the desired maximum image width */
+    max-height: 100%; /* Adjust the desired maximum image height */
   }
   .image-grid div { width: 100%; }
   .counter__item {
@@ -1303,8 +1303,8 @@ gallery-----------------------*/
   .box img {
     width: 100%;
     height: auto;
-    max-width: 400px; /* Adjust the desired maximum image width */
-    max-height: 400px; /* Adjust the desired maximum image height */
+    max-width: 100%; /* Adjust the desired maximum image width */
+    max-height: 100%; /* Adjust the desired maximum image height */
   }
   .grid-sizer {
     width: 100%;
