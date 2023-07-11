@@ -811,6 +811,22 @@ gallery-----------------------*/
     flex-direction: column;
     flex-wrap: no-wrap;
   }
+  .grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box {
+    flex-basis: 100%;
+    margin: 2% 0;
+  }
+
+  .box img {
+    width: 100%;
+    height: auto;
+    max-width: 400px; /* Adjust the desired maximum image width */
+    max-height: 400px; /* Adjust the desired maximum image height */
+  }
   
   .image-grid div { width: 100%; }
 
@@ -870,6 +886,22 @@ gallery-----------------------*/
   .image-row {
     flex-direction: column;
     align-items: center;
+  }
+  .grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box {
+    flex-basis: 100%;
+    margin: 2% 0;
+  }
+
+  .box img {
+    width: 100%;
+    height: auto;
+    max-width: 400px; /* Adjust the desired maximum image width */
+    max-height: 400px; /* Adjust the desired maximum image height */
   }
   .textodiv p{
     margin-top: 100px;
@@ -1029,6 +1061,22 @@ gallery-----------------------*/
   .image-grid {
     flex-direction: column;
     flex-wrap: no-wrap;
+  }
+  .grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box {
+    flex-basis: 100%;
+    margin: 2% 0;
+  }
+
+  .box img {
+    width: 100%;
+    height: auto;
+    max-width: 400px; /* Adjust the desired maximum image width */
+    max-height: 400px; /* Adjust the desired maximum image height */
   }
   .image-grid div { width: 100%; }
   .counter__item {
@@ -1242,6 +1290,22 @@ gallery-----------------------*/
     line-height: 40px;
   }
 
+  .grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box {
+    flex-basis: 100%;
+    margin: 2% 0;
+  }
+
+  .box img {
+    width: 100%;
+    height: auto;
+    max-width: 400px; /* Adjust the desired maximum image width */
+    max-height: 400px; /* Adjust the desired maximum image height */
+  }
   .grid-sizer {
     width: 100%;
   }
