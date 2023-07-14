@@ -1149,12 +1149,18 @@ ol {
   .containere h1 {
    font-size: 26px;
   }
+  .hero__text{
+    display: none;
+  }
   
 }
 /* Tablet Device = 768px */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .hero__slider.owl-carousel .owl-dots {
     max-width: 690px !important;
+  }
+  .hero__text{
+    display: none;
   }
   .text-container p {
     font-size: 18px;
@@ -1273,6 +1279,9 @@ ol {
     flex-direction: row;
   }
   .lista ul{
+    display: none;
+  }
+  .hero__text{
     display: none;
   }
   .accordion-item {
@@ -1436,9 +1445,8 @@ ol {
 }
 /* Small Device = 320px */
 @media only screen and (max-width: 479px) {
-  .hero__text h2 {
-    font-size: 30px;
-    line-height: 40px;
+  .hero__text {
+  display: none;
   }
   .textodiv {
     font-size: 18px;
