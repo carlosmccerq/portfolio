@@ -820,12 +820,17 @@ gallery-----------------------*/
     flex-basis: 100%;
     margin: 2% 0;
   }
-
+  .box > img {
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    transition: none;
+  }
   .box img {
     width: 100%;
     height: auto;
-    max-width: 150%; /* Adjust the desired maximum image width */
-    max-height: 170%; /* Adjust the desired maximum image height */
+    max-width: 200%; /* Adjust the desired maximum image width */
+    max-height: 100%; /* Adjust the desired maximum image height */
   }
   
   .image-grid div { width: 100%; }
@@ -900,8 +905,20 @@ gallery-----------------------*/
   .box img {
     width: 100%;
     height: auto;
-    max-width: 150%; /* Adjust the desired maximum image width */
-    max-height: 170%; /* Adjust the desired maximum image height */
+    max-width: 200%; /* Adjust the desired maximum image width */
+    max-height: 100%; /* Adjust the desired maximum image height */
+  }
+  .box > img {
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    transition: none;
+  }
+  .box > img {
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    transition: none;
   }
   .textodiv p{
     margin-top: 100px;
@@ -1073,10 +1090,16 @@ gallery-----------------------*/
   }
 
   .box img {
-    width: 100%;
+    width: 150%;
     height: auto;
-    max-width: 150%; /* Adjust the desired maximum image width */
-    max-height: 170%; /* Adjust the desired maximum image height */
+    max-width: 200%; /* Adjust the desired maximum image width */
+    max-height: 100%; /* Adjust the desired maximum image height */
+  }
+  .box > img {
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    transition: none;
   }
   .image-grid div { width: 100%; }
   .counter__item {
@@ -1301,10 +1324,16 @@ gallery-----------------------*/
   }
 
   .box img {
-    width: 100%;
+    width: 150%;
     height: auto;
-    max-width: 150%; /* Adjust the desired maximum image width */
-    max-height: 170%; /* Adjust the desired maximum image height */
+    max-width: 200%; /* Adjust the desired maximum image width */
+    max-height: 100%; /* Adjust the desired maximum image height */
+  }
+  .box > img {
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    transition: none;
   }
   .grid-sizer {
     width: 100%;
